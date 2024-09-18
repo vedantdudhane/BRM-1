@@ -1,0 +1,16 @@
+{
+  "name": "brm-1",
+  "version": "1.0.0",
+  "description": "Library management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vedantdudhane/BRM-1"
+  },
+  "author": "vedant",
+  "license": "ISC"
+}
