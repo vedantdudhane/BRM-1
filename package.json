@@ -12,5 +12,9 @@
     "url": "https://github.com/vedantdudhane/BRM-1"
   },
   "author": "vedant",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
 }

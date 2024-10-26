@@ -14,13 +14,7 @@ app.get("/", (req, res) => {
 app.use("/users", userRouter);
 
 app.use("/books", bookRouter);
-/*
- *Route: /users
- *Method:GET
- *Description:Get all users
- *Access: public
- *Parameters: none
- */
+const { user } = require("./data/users.json");
 
 app.get("*", (req, res) => {
   res.status(404).json({
