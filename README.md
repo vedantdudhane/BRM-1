@@ -1,4 +1,4 @@
-# BRM-1
+# BRM-1 - A backend based project for understanding the working of apis
 
 server >> for storing book data >> user register >>subscriber
 
